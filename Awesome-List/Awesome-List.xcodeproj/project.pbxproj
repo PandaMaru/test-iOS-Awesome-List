@@ -8,10 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3E5C5C0F1F22095D00765368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C0E1F22095D00765368 /* AppDelegate.swift */; };
-		3E5C5C111F22095D00765368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C101F22095D00765368 /* ViewController.swift */; };
 		3E5C5C141F22095D00765368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C5C121F22095D00765368 /* Main.storyboard */; };
 		3E5C5C161F22095D00765368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C5C151F22095D00765368 /* Assets.xcassets */; };
 		3E5C5C191F22095D00765368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5C5C171F22095D00765368 /* LaunchScreen.storyboard */; };
+		3E5C5C221F220E4F00765368 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C211F220E4F00765368 /* List.swift */; };
+		3E5C5C251F220FF700765368 /* APISingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C241F220FF700765368 /* APISingleton.swift */; };
+		3E5C5C281F22110400765368 /* ObservableTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C271F22110400765368 /* ObservableTypeExtension.swift */; };
+		3E5C5C2D1F22141400765368 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C2C1F22141400765368 /* ListViewController.swift */; };
+		3E5C5C2F1F22142400765368 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C2E1F22142400765368 /* ListViewModel.swift */; };
+		3E5C5C321F2224AB00765368 /* CustomListSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C311F2224AB00765368 /* CustomListSectionController.swift */; };
+		3E5C5C341F22287F00765368 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C331F22287F00765368 /* TrackCollectionViewCell.swift */; };
+		3E5C5C361F2243A100765368 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C351F2243A100765368 /* VideoCollectionViewCell.swift */; };
+		3E5C5C381F224BA900765368 /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5C5C371F224BA900765368 /* AdsCollectionViewCell.swift */; };
 		E89D0DBBD2C3829FFF051068 /* Pods_Awesome_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D036915EF5C644952B514F /* Pods_Awesome_List.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +27,19 @@
 		31D036915EF5C644952B514F /* Pods_Awesome_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Awesome_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5C5C0B1F22095D00765368 /* Awesome-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5C5C0E1F22095D00765368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E5C5C101F22095D00765368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E5C5C131F22095D00765368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E5C5C151F22095D00765368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5C5C181F22095D00765368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5C5C1A1F22095D00765368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5C5C211F220E4F00765368 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		3E5C5C241F220FF700765368 /* APISingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISingleton.swift; sourceTree = "<group>"; };
+		3E5C5C271F22110400765368 /* ObservableTypeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableTypeExtension.swift; sourceTree = "<group>"; };
+		3E5C5C2C1F22141400765368 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		3E5C5C2E1F22142400765368 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		3E5C5C311F2224AB00765368 /* CustomListSectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomListSectionController.swift; sourceTree = "<group>"; };
+		3E5C5C331F22287F00765368 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E5C5C351F2243A100765368 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E5C5C371F224BA900765368 /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
 		8B6D8EDAFD16986A2FF02185 /* Pods-Awesome-List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome-List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Awesome-List/Pods-Awesome-List.debug.xcconfig"; sourceTree = "<group>"; };
 		A776B7DA2A0BC3516BC06EE5 /* Pods-Awesome-List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome-List.release.xcconfig"; path = "Pods/Target Support Files/Pods-Awesome-List/Pods-Awesome-List.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,14 +94,70 @@
 		3E5C5C0D1F22095D00765368 /* Awesome-List */ = {
 			isa = PBXGroup;
 			children = (
+				3E5C5C261F2210C400765368 /* Utility */,
+				3E5C5C231F220FA600765368 /* API */,
+				3E5C5C201F220E2400765368 /* Model */,
+				3E5C5C301F22248400765368 /* SectionController */,
+				3E5C5C2A1F2213F700765368 /* Scene */,
 				3E5C5C0E1F22095D00765368 /* AppDelegate.swift */,
-				3E5C5C101F22095D00765368 /* ViewController.swift */,
 				3E5C5C121F22095D00765368 /* Main.storyboard */,
 				3E5C5C151F22095D00765368 /* Assets.xcassets */,
 				3E5C5C171F22095D00765368 /* LaunchScreen.storyboard */,
 				3E5C5C1A1F22095D00765368 /* Info.plist */,
 			);
 			path = "Awesome-List";
+			sourceTree = "<group>";
+		};
+		3E5C5C201F220E2400765368 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C211F220E4F00765368 /* List.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E5C5C231F220FA600765368 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C241F220FF700765368 /* APISingleton.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3E5C5C261F2210C400765368 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C271F22110400765368 /* ObservableTypeExtension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		3E5C5C2A1F2213F700765368 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C2B1F2213F700765368 /* List */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		3E5C5C2B1F2213F700765368 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C2C1F22141400765368 /* ListViewController.swift */,
+				3E5C5C2E1F22142400765368 /* ListViewModel.swift */,
+				3E5C5C331F22287F00765368 /* TrackCollectionViewCell.swift */,
+				3E5C5C351F2243A100765368 /* VideoCollectionViewCell.swift */,
+				3E5C5C371F224BA900765368 /* AdsCollectionViewCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3E5C5C301F22248400765368 /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				3E5C5C311F2224AB00765368 /* CustomListSectionController.swift */,
+			);
+			path = SectionController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5C5C111F22095D00765368 /* ViewController.swift in Sources */,
+				3E5C5C361F2243A100765368 /* VideoCollectionViewCell.swift in Sources */,
+				3E5C5C281F22110400765368 /* ObservableTypeExtension.swift in Sources */,
+				3E5C5C2F1F22142400765368 /* ListViewModel.swift in Sources */,
+				3E5C5C2D1F22141400765368 /* ListViewController.swift in Sources */,
 				3E5C5C0F1F22095D00765368 /* AppDelegate.swift in Sources */,
+				3E5C5C341F22287F00765368 /* TrackCollectionViewCell.swift in Sources */,
+				3E5C5C321F2224AB00765368 /* CustomListSectionController.swift in Sources */,
+				3E5C5C381F224BA900765368 /* AdsCollectionViewCell.swift in Sources */,
+				3E5C5C251F220FF700765368 /* APISingleton.swift in Sources */,
+				3E5C5C221F220E4F00765368 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +458,7 @@
 				3E5C5C1F1F22095D00765368 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

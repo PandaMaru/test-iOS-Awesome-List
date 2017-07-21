@@ -9,5 +9,7 @@ target 'Awesome-List' do
   pod 'RxSwift', '~> 3.6'
   pod 'RxAlamofire', '~> 3.0'
   pod 'IGListKit', '~> 3.0'
+  pod 'SwiftyJSON', '~> 3.1'
+  pod 'Kingfisher', '~> 3.10'
 
 end
