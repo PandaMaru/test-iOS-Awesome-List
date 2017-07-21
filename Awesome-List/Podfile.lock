@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.5.0)
+  - IGListKit (3.0.0):
+    - IGListKit/Default (= 3.0.0)
+  - IGListKit/Default (3.0.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.0.0)
+  - RxAlamofire (3.0.3):
+    - RxAlamofire/Core (= 3.0.3)
+  - RxAlamofire/Core (3.0.3):
+    - Alamofire (~> 4.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.6.0)
+
+DEPENDENCIES:
+  - IGListKit (~> 3.0)
+  - RxAlamofire (~> 3.0)
+  - RxSwift (~> 3.6)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  IGListKit: 9eab6856a15fa25ad72018ff9d9eb2178c240fff
+  RxAlamofire: 5eb39188c4917ad98127c0ecb4878a61b7517003
+  RxSwift: a0925c7fb11fbe60055285f6f2062241aa37a175
+
+PODFILE CHECKSUM: 05838d99ce95394c8f1e59121f31d2638963e97a
+
+COCOAPODS: 1.2.1
